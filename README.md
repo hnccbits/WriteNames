@@ -1,6 +1,7 @@
 # About this repository
 
 This repository to practice common git concepts. Everyone should have git installed and a github account running.
+This task should be done by 10pm, 06-04-2020.
 
 ## Concepts 
 
@@ -42,7 +43,13 @@ Follow the instructions to complete this task.
 
 * Commit your changes using
   
-  `git commit -m "My Name"`
+  ```bash
+  git add your-name.txt
+  git commit -m "My Name"
+  git push --set-upstream origin your-branch-name
+  ```
+
+  Enter your github credentials and push.
 
 ### Step 4 (Create a Pull Request)
 
